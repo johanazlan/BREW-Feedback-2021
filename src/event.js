@@ -25,8 +25,9 @@ function Event(){
                                 <CardHeader
                                     title = {props.title}
                                     subheader = {props.subheader}
+                                    style = {{textAlign: 'center'}}
                                 />
-                                <CardContent>
+                                <CardContent style = {{textAlign: 'center'}}>
                                     <Typography>
                                         <p classname = "link">{props.link}</p>
                                         <p>Code: {props.code}</p>
