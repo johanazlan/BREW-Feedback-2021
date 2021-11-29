@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/BREW-Feedback-2021/static/css/main.886403e3.chunk.css",
+    "main.js": "/BREW-Feedback-2021/static/js/main.8e5ec92b.chunk.js",
+    "main.js.map": "/BREW-Feedback-2021/static/js/main.8e5ec92b.chunk.js.map",
+    "runtime-main.js": "/BREW-Feedback-2021/static/js/runtime-main.45a228e0.js",
+    "runtime-main.js.map": "/BREW-Feedback-2021/static/js/runtime-main.45a228e0.js.map",
+    "static/js/2.f16a2733.chunk.js": "/BREW-Feedback-2021/static/js/2.f16a2733.chunk.js",
+    "static/js/2.f16a2733.chunk.js.map": "/BREW-Feedback-2021/static/js/2.f16a2733.chunk.js.map",
+    "static/js/3.0199a7af.chunk.js": "/BREW-Feedback-2021/static/js/3.0199a7af.chunk.js",
+    "static/js/3.0199a7af.chunk.js.map": "/BREW-Feedback-2021/static/js/3.0199a7af.chunk.js.map",
+    "index.html": "/BREW-Feedback-2021/index.html",
+    "precache-manifest.57db50567d29047cccc47be30ef023d1.js": "/BREW-Feedback-2021/precache-manifest.57db50567d29047cccc47be30ef023d1.js",
+    "service-worker.js": "/BREW-Feedback-2021/service-worker.js",
+    "static/css/main.886403e3.chunk.css.map": "/BREW-Feedback-2021/static/css/main.886403e3.chunk.css.map",
+    "static/js/2.f16a2733.chunk.js.LICENSE.txt": "/BREW-Feedback-2021/static/js/2.f16a2733.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45a228e0.js",
+    "static/js/2.f16a2733.chunk.js",
+    "static/css/main.886403e3.chunk.css",
+    "static/js/main.8e5ec92b.chunk.js"
+  ]
+}
