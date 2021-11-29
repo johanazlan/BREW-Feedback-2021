@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49906860bf2921221f617ec79ffbd23c",
+    "revision": "157570188f9337575c35b36e1418599e",
     "url": "/BREW-Feedback-2021/index.html"
   },
   {
-    "revision": "8f3a95978ed49943395a",
-    "url": "/BREW-Feedback-2021/static/css/main.886403e3.chunk.css"
+    "revision": "69e9a645985b0e4b9c90",
+    "url": "/BREW-Feedback-2021/static/css/main.10e66dcd.chunk.css"
   },
   {
     "revision": "f3e78fb2f371ce2c5400",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BREW-Feedback-2021/static/js/3.0199a7af.chunk.js"
   },
   {
-    "revision": "8f3a95978ed49943395a",
-    "url": "/BREW-Feedback-2021/static/js/main.8e5ec92b.chunk.js"
+    "revision": "69e9a645985b0e4b9c90",
+    "url": "/BREW-Feedback-2021/static/js/main.8ddbf488.chunk.js"
   },
   {
     "revision": "0b8f29348c692563ca40",
