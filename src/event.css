@@ -1,0 +1,24 @@
+.MuiCardHeader-root	{
+    background-color: #12c9a8;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight:bolder;
+    font-family: sans-serif;
+}
+
+.desc {
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.desc {
+    text-align: center;
+}
