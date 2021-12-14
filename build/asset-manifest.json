@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/BREW-Feedback-2021/static/css/main.4d65e794.chunk.css",
-    "main.js": "/BREW-Feedback-2021/static/js/main.b9ec930e.chunk.js",
-    "main.js.map": "/BREW-Feedback-2021/static/js/main.b9ec930e.chunk.js.map",
-    "runtime-main.js": "/BREW-Feedback-2021/static/js/runtime-main.e46e3002.js",
-    "runtime-main.js.map": "/BREW-Feedback-2021/static/js/runtime-main.e46e3002.js.map",
-    "static/js/2.ced0208a.chunk.js": "/BREW-Feedback-2021/static/js/2.ced0208a.chunk.js",
-    "static/js/2.ced0208a.chunk.js.map": "/BREW-Feedback-2021/static/js/2.ced0208a.chunk.js.map",
-    "static/js/3.9b924ad7.chunk.js": "/BREW-Feedback-2021/static/js/3.9b924ad7.chunk.js",
-    "static/js/3.9b924ad7.chunk.js.map": "/BREW-Feedback-2021/static/js/3.9b924ad7.chunk.js.map",
+    "main.js": "/BREW-Feedback-2021/static/js/main.296f1caf.chunk.js",
+    "main.js.map": "/BREW-Feedback-2021/static/js/main.296f1caf.chunk.js.map",
+    "runtime-main.js": "/BREW-Feedback-2021/static/js/runtime-main.f9aad541.js",
+    "runtime-main.js.map": "/BREW-Feedback-2021/static/js/runtime-main.f9aad541.js.map",
+    "static/js/2.d586aceb.chunk.js": "/BREW-Feedback-2021/static/js/2.d586aceb.chunk.js",
+    "static/js/2.d586aceb.chunk.js.map": "/BREW-Feedback-2021/static/js/2.d586aceb.chunk.js.map",
+    "static/js/3.88f13ec5.chunk.js": "/BREW-Feedback-2021/static/js/3.88f13ec5.chunk.js",
+    "static/js/3.88f13ec5.chunk.js.map": "/BREW-Feedback-2021/static/js/3.88f13ec5.chunk.js.map",
     "index.html": "/BREW-Feedback-2021/index.html",
-    "precache-manifest.da60f2968d1d6358647be9a2e137367e.js": "/BREW-Feedback-2021/precache-manifest.da60f2968d1d6358647be9a2e137367e.js",
+    "precache-manifest.b9c65f7e5cffedb3f8efc53b89b26443.js": "/BREW-Feedback-2021/precache-manifest.b9c65f7e5cffedb3f8efc53b89b26443.js",
     "service-worker.js": "/BREW-Feedback-2021/service-worker.js",
     "static/css/main.4d65e794.chunk.css.map": "/BREW-Feedback-2021/static/css/main.4d65e794.chunk.css.map",
-    "static/js/2.ced0208a.chunk.js.LICENSE.txt": "/BREW-Feedback-2021/static/js/2.ced0208a.chunk.js.LICENSE.txt"
+    "static/js/2.d586aceb.chunk.js.LICENSE.txt": "/BREW-Feedback-2021/static/js/2.d586aceb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e46e3002.js",
-    "static/js/2.ced0208a.chunk.js",
+    "static/js/runtime-main.f9aad541.js",
+    "static/js/2.d586aceb.chunk.js",
     "static/css/main.4d65e794.chunk.css",
-    "static/js/main.b9ec930e.chunk.js"
+    "static/js/main.296f1caf.chunk.js"
   ]
 }
