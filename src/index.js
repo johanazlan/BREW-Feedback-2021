@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Event from './event';
 import reportWebVitals from './reportWebVitals';
+import Event2 from './event_v2';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Event2/>
   </React.StrictMode>,
   document.getElementById('root')
 );
