@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import Event from './event_old';
 import reportWebVitals from './reportWebVitals';
-import Event from './event';
+//import Event from './event';
 import Event2 from './event_v2_testInterval';
 
 ReactDOM.render(
