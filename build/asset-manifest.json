@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/BREW-Feedback-2021/static/css/main.4d65e794.chunk.css",
-    "main.js": "/BREW-Feedback-2021/static/js/main.296f1caf.chunk.js",
-    "main.js.map": "/BREW-Feedback-2021/static/js/main.296f1caf.chunk.js.map",
-    "runtime-main.js": "/BREW-Feedback-2021/static/js/runtime-main.f9aad541.js",
-    "runtime-main.js.map": "/BREW-Feedback-2021/static/js/runtime-main.f9aad541.js.map",
-    "static/js/2.d586aceb.chunk.js": "/BREW-Feedback-2021/static/js/2.d586aceb.chunk.js",
-    "static/js/2.d586aceb.chunk.js.map": "/BREW-Feedback-2021/static/js/2.d586aceb.chunk.js.map",
-    "static/js/3.88f13ec5.chunk.js": "/BREW-Feedback-2021/static/js/3.88f13ec5.chunk.js",
-    "static/js/3.88f13ec5.chunk.js.map": "/BREW-Feedback-2021/static/js/3.88f13ec5.chunk.js.map",
-    "index.html": "/BREW-Feedback-2021/index.html",
-    "precache-manifest.b9c65f7e5cffedb3f8efc53b89b26443.js": "/BREW-Feedback-2021/precache-manifest.b9c65f7e5cffedb3f8efc53b89b26443.js",
-    "service-worker.js": "/BREW-Feedback-2021/service-worker.js",
-    "static/css/main.4d65e794.chunk.css.map": "/BREW-Feedback-2021/static/css/main.4d65e794.chunk.css.map",
-    "static/js/2.d586aceb.chunk.js.LICENSE.txt": "/BREW-Feedback-2021/static/js/2.d586aceb.chunk.js.LICENSE.txt"
+    "main.css": "./static/css/main.4d65e794.chunk.css",
+    "main.js": "./static/js/main.5f089ed6.chunk.js",
+    "main.js.map": "./static/js/main.5f089ed6.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.c39148ba.js",
+    "runtime-main.js.map": "./static/js/runtime-main.c39148ba.js.map",
+    "static/js/2.32e1bd06.chunk.js": "./static/js/2.32e1bd06.chunk.js",
+    "static/js/2.32e1bd06.chunk.js.map": "./static/js/2.32e1bd06.chunk.js.map",
+    "static/js/3.88f13ec5.chunk.js": "./static/js/3.88f13ec5.chunk.js",
+    "static/js/3.88f13ec5.chunk.js.map": "./static/js/3.88f13ec5.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.b88fa6c909ef79f3d5dc09cc2423a52e.js": "./precache-manifest.b88fa6c909ef79f3d5dc09cc2423a52e.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.4d65e794.chunk.css.map": "./static/css/main.4d65e794.chunk.css.map",
+    "static/js/2.32e1bd06.chunk.js.LICENSE.txt": "./static/js/2.32e1bd06.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9aad541.js",
-    "static/js/2.d586aceb.chunk.js",
+    "static/js/runtime-main.c39148ba.js",
+    "static/js/2.32e1bd06.chunk.js",
     "static/css/main.4d65e794.chunk.css",
-    "static/js/main.296f1caf.chunk.js"
+    "static/js/main.5f089ed6.chunk.js"
   ]
 }
