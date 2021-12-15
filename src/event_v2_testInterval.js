@@ -186,37 +186,40 @@ const eventList = [
     {
         title: "SCENE SETTING", 
         subheader: "16 Dec, 3pm", // Always display on screen
-        date: "December 15, 2021 10:52 AM", // Used to compare with current date time in order to change state
-        endDate: "December 15, 2021 10:57 AM",
+        date: "December 15, 2021 5:00 PM", // Used to compare with current date time in order to change state
+        endDate: "December 15, 2021 6:00 PM",
         link: <a href = "https://ahaslides.com/BREW1">SCENE SETTING</a>, 
         code: "BREW1"
     },
     {
         title: "TESLA", 
         subheader: "16 Dec, 4:30pm", 
-        date: "December 15, 2021 10:52 AM",
-        endDate: "December 15, 2021 10:53 AM",
+        date: "December 15, 2021 5:10 PM",
+        endDate: "December 15, 2021 6:00 PM",
         link: <a href = "https://ahaslides.com/BREW2">TESLA</a>, 
         code: "BREW2"
     }, 
     {
         title: "NETFLIX", 
         subheader: "16 Dec, 8:30pm", 
-        date: "December 16, 2021 8:30 PM",
+        date: "December 16, 2021 6:00 PM",
+        endDate: "December 15, 2021 7:00 PM",
         link: <a href = "https://ahaslides.com/BREW3">NETFLIX</a>, 
         code: "BREW3"
     }, 
     {
         title: "GE", 
         subheader: "17 Dec, 9:30am", 
-        date: "December 17, 2021 9:30 AM",
+        date: "December 17, 2021 6:30 PM",
+        endDate: "December 15, 2021 7:00 PM",
         link: <a href = "https://ahaslides.com/BREW4">GE</a>, 
         code: "BREW4"
     }, 
     {
         title: "AMAZON", 
         subheader: "17 Dec, 11:00am", 
-        date: "December 17, 2021 11:00 AM",
+        date: "December 17, 2021 7:00 PM",
+        endDate: "December 15, 2021 7:40 PM",
         link: <a href = "https://ahaslides.com/BREW5">AMAZON</a>, 
         code: "BREW5"
     }
