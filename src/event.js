@@ -8,6 +8,7 @@ import Grid from '@material-ui/core/Grid';
 import { Container } from '@material-ui/core';
 import moment from 'moment';
 import { Helmet } from "react-helmet";
+import { Outlet, Link } from "react-router-dom";
 
 function Event(){
 
@@ -33,7 +34,16 @@ function Event(){
                 <p className = "desc"> Click the link to ask questions and provide feedback</p>  
                 <h3 style = {{textAlign: 'center', fontFamily: 'Poppins'}}>OR</h3> 
                 <p className = "desc">Enter the code at <a href = "https://ahaslides.com/v2/">AhaSlides</a></p> 
-                <br></br> 
+                <br></br>
+                <div style = {{flex: 1, justifyContent: "center", alignItems: "center", display: "flex"}}>
+                <Link style = {{textDecoration: 'none'}} to={"/EventInformation"}>
+                        <div style = {{width: 180,height: 32, backgroundColor: '#244FE9' , alignSelf: "center", textAlign: 'center', paddingTop: 10, borderRadius: 5, color: "white"}}>
+                            General Information                  
+                        </div>
+                </Link>
+                </div>
+                <br></br>
+                <Outlet/>
             </div>
 
             {/* Top Grid */}
@@ -47,7 +57,7 @@ function Event(){
                     ("December 15, 2021 10:15 AM" - "December 15, 2021 10:22 AM") && ("December 15, 2021 10:22 AM" - "December 15, 2021 10:25 AM") 
             */}
             <Container>
-                <p style = {{fontFamily: 'Poppins', fontSize: 24, marginTop: 20}}>Ongoing</p>
+                <p style = {{fontFamily: 'Poppins', fontSize: 24, marginTop: 50}}>Ongoing</p>
                 <Grid container spacing = {3}>
                     {eventList.filter(props => (moment(props.date).diff(moment().format('LLL')) <= 0) && (moment(props.endDate).diff(moment().format('LLL')) >= 0))
                               .map(props => (

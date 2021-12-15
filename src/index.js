@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import Event from './event_old';
 import reportWebVitals from './reportWebVitals';
-//import Event from './event';
-import Event2 from './event_v2_testInterval';
+import Event from './event';
+import EventInformation from './eventInformation';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Event2/>
+    <BrowserRouter>
+      <Routes>
+          <Route path = "/" element = {<Event/>} />
+          <Route path = "EventInformation" element={<EventInformation/>} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
