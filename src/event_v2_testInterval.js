@@ -9,7 +9,7 @@ import { Container } from '@material-ui/core';
 import moment from 'moment';
 import { Helmet } from "react-helmet";
 
-function Event(){
+function Event2(){
 
     useEffect(() => {
       const interval = setInterval(() => {
@@ -36,11 +36,12 @@ function Event(){
                 <br></br> 
             </div>
 
+
             {/* Top Grid */}
 
             {/* eventList.filter(props => (moment(props.date).diff(moment().format('LLL')) === 0) || (moment(props.endDate) >= moment().format('LLL')) */}
             {/* props.date is the event start time 
-                if (Event start time - current time <= 0) && (end time - current time >= 0)
+                if (Event start time - current time) <= 0 && (current time <= end time )
                     then event ONGOING
 
                 Ex:
@@ -76,7 +77,7 @@ function Event(){
 
             {/* General Feedback and Questions */}
             <Container>
-                <p style = {{fontFamily: 'Poppins', fontSize: 24, marginTop: 100}}>General Feedback and Questions</p>
+                <p style = {{fontFamily: 'Poppins', fontSize: 24, marginTop: 80}}>General Feedback and Questions</p>
                     <Grid container spacing = {3}>
                         <Grid item xs = {12} md = {6} lg = {4}>
                             <Card className = "Card" elevation = {3}>
@@ -109,7 +110,7 @@ function Event(){
             
             */}
             <Container>
-                <p style = {{fontFamily: 'Poppins', fontSize: 24, marginTop: 100}}>Not Started</p>
+                <p style = {{fontFamily: 'Poppins', fontSize: 24, marginTop: 80}}>Not Started</p>
                 <Grid container spacing = {3}>
                     {eventList.filter(props => moment(props.date).diff(moment().format('LLL')) > 0) 
                               .map(props => (
@@ -146,8 +147,8 @@ function Event(){
                 Ex: 
                 "December 15, 2021 10:21 AM" - "December 15, 2021 10:22 AM"
             */}
-            <Container style = {{marginBottom: 100}}>
-                <p style = {{fontFamily: 'Poppins', fontSize: 24, marginTop: 100}}>Completed</p>
+            <Container style = {{marginBottom: 80}}>
+                <p style = {{fontFamily: 'Poppins', fontSize: 24, marginTop: 80}}>Completed</p>
                 <Grid container spacing = {3}>
                     {eventList.filter(props => moment(props.endDate).diff(moment().format('LLL')) < 0)
                               .map(props => (
@@ -173,6 +174,9 @@ function Event(){
                     }       
                 </Grid>
             </Container>
+
+            
+
         </body>
         </div>
     );
@@ -182,16 +186,16 @@ const eventList = [
     {
         title: "SCENE SETTING", 
         subheader: "16 Dec, 3pm", // Always display on screen
-        date: "December 16, 2021 3:00 PM", // Used to compare with current date time in order to change state
-        endDate: "December 16, 2021 6:00 PM",
+        date: "December 15, 2021 10:52 AM", // Used to compare with current date time in order to change state
+        endDate: "December 15, 2021 10:57 AM",
         link: <a href = "https://ahaslides.com/BREW1">SCENE SETTING</a>, 
         code: "BREW1"
     },
     {
         title: "TESLA", 
         subheader: "16 Dec, 4:30pm", 
-        date: "December 16, 2021 4:30 PM",
-        endDate: "December 16, 2021 7:30 PM",
+        date: "December 15, 2021 10:52 AM",
+        endDate: "December 15, 2021 10:53 AM",
         link: <a href = "https://ahaslides.com/BREW2">TESLA</a>, 
         code: "BREW2"
     }, 
@@ -199,7 +203,6 @@ const eventList = [
         title: "NETFLIX", 
         subheader: "16 Dec, 8:30pm", 
         date: "December 16, 2021 8:30 PM",
-        endDate: "December 16, 2021 11:30 PM",
         link: <a href = "https://ahaslides.com/BREW3">NETFLIX</a>, 
         code: "BREW3"
     }, 
@@ -207,7 +210,6 @@ const eventList = [
         title: "GE", 
         subheader: "17 Dec, 9:30am", 
         date: "December 17, 2021 9:30 AM",
-        endDate: "December 17, 2021 12:30 PM",
         link: <a href = "https://ahaslides.com/BREW4">GE</a>, 
         code: "BREW4"
     }, 
@@ -215,10 +217,9 @@ const eventList = [
         title: "AMAZON", 
         subheader: "17 Dec, 11:00am", 
         date: "December 17, 2021 11:00 AM",
-        endDate: "December 17, 2021 2:00 PM",
         link: <a href = "https://ahaslides.com/BREW5">AMAZON</a>, 
         code: "BREW5"
     }
 ]
 
-export default Event;
+export default Event2;
