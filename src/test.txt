@@ -1,0 +1,7 @@
+<div style = {{flex: 1, justifyContent: "center", alignItems: "center", padding: 20}}>
+                <Link style = {{textDecoration: 'none'}} to={"/"}>
+                    <div style = {{width: 100, height: 30, backgroundColor: "#444444", textAlign: 'center', paddingTop: 10, borderRadius: 5, color: "white"}}>
+                        Go back
+                    </div>
+                </Link>
+            </div>

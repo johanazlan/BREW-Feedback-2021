@@ -202,7 +202,7 @@ const eventList = [
     {
         title: "NETFLIX", 
         subheader: "16 Dec, 8:30pm", 
-        date: "December 16, 2021 6:00 PM",
+        date: "December 15, 2021 6:00 PM",
         endDate: "December 15, 2021 7:00 PM",
         link: <a href = "https://ahaslides.com/BREW3">NETFLIX</a>, 
         code: "BREW3"
@@ -210,7 +210,7 @@ const eventList = [
     {
         title: "GE", 
         subheader: "17 Dec, 9:30am", 
-        date: "December 17, 2021 6:30 PM",
+        date: "December 15, 2021 6:30 PM",
         endDate: "December 15, 2021 7:00 PM",
         link: <a href = "https://ahaslides.com/BREW4">GE</a>, 
         code: "BREW4"
@@ -218,7 +218,7 @@ const eventList = [
     {
         title: "AMAZON", 
         subheader: "17 Dec, 11:00am", 
-        date: "December 17, 2021 7:00 PM",
+        date: "December 15, 2021 7:00 PM",
         endDate: "December 15, 2021 7:40 PM",
         link: <a href = "https://ahaslides.com/BREW5">AMAZON</a>, 
         code: "BREW5"
